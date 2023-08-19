@@ -1,1 +1,1 @@
-console.log('THIS IS FROM NODE APP')
+console.log('THIS IS FROM NODE APP', process.env.DAVID)
