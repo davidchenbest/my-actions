@@ -1,0 +1,1 @@
+cmd_Release/obj.target/demoaddon.node := g++ -o Release/obj.target/demoaddon.node -shared -pthread -rdynamic -m64  -Wl,-soname=demoaddon.node -Wl,--start-group Release/obj.target/demoaddon/demoaddon.o -Wl,--end-group ../demoaddon.a
